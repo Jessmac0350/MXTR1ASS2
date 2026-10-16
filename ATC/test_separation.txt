@@ -1,0 +1,6 @@
+#ADS-B:5977,time:18:35,N:328.0,E:119.4,alt:6500,head:-110.0,speed:205.0
+#ADS-B:5977,time:18:42,N:247.1,E:90.0,alt:6500,head:-110.0,speed:205.0
+*time:18:42,est_pos,5977
+#ADS-B:7073,time:18:45,N:-343.7,E:60.6,alt:7000,head:95.0,speed:240.0
+*time:18:46,check_separation,5977,100.0
+*time:18:47,close

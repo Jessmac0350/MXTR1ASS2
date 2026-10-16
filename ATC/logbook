@@ -1,0 +1,76 @@
+Date: 8 October 2026
+Read assignment, make a list of tasks to be completed. 
+     Read and decode the ADS-B Input
+        extractusing fgets()
+            id, hour, minute, north and east co-ordinates,
+            altitude, heading and speed.
+        store in a ADSPacket
+        be able to read multiple inputs until told to stop
+
+    store and manage an aircraft
+        choose structure
+        allocate memory
+        ADD new detected aircrafts
+        update existing aircraftwith their latest message
+        Remove aircrafts that have left area
+        Free memory when no longer needed
+
+    Calculate aircraft positions
+        north and east from heading and speed
+        elapsed time since last ads-b message
+        estimate plane position when requested
+        determine if aircraft in the 350km radius
+
+    Identify Commands
+        messages beginning with *
+        the close command
+        est_pos to report the estimated position
+        num_contacts to count aircrafts in area
+        invalid for aircrafts no longer in area
+
+    Check space between aircrafts
+        Check alt and compare against the 750 m
+        Relative positons and velocities of two aircrafts
+        quadratic eq for minimum peratation
+        predict future separation issues
+        earliest relevant separation issue
+        Check if issue inside check area
+        output separation results
+
+    Compile
+    test with example input
+    check additional cases
+    add comments and clean up functions
+    Check in Ed
+    Update log book.
+
+Date 13 October 2026
+/- Created main file: Wrote the functions inorder to read the multiple inputs. Sorting the inputs and allocating the storage for each aircraft.
+using sscanf
+using fgets
+using
+
+
+Date 14 October 2026
+Developed the code into the four main c code files. Finalised the aircraft code.
+Choosing ... becuase ...
+
+testing choices using printf. CHeck storage, processing of data and correct outputs.
+
+Struggled with the starting time being the 9:09 instead of 9:02. Removed the extra use of fgets. 
+
+
+AI use in debugging program
+AI use in creating a checklist for appraoching the assignmnet.
+
+use of ifndef??
+
+
+
+
+
+
+
+
+
+
